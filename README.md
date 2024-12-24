@@ -5,7 +5,7 @@ A robust foundation for building modern, scalable web applications. This boilerp
 
 ### Key Features:
 - **Next.js 15**: The latest framework version for server-side rendering and client-side interactivity.
-- **Secure Authentication**: Pre-configured authentication for enhanced security.
+- **Secure Authentication with Next Auth**: Pre-configured authentication for enhanced security.
 - **Vercel Deployment**: Ready-to-deploy setup tailored for Vercel hosting.
 - **PostgreSQL & Prisma ORM**: Powerful database management with a modern ORM for seamless data handling.
 - **Tailwind CSS**: Utility-first CSS framework for rapid UI development.
