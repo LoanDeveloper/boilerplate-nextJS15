@@ -16,11 +16,11 @@ export default NextAuth({
       }
       return token
     },
-    async session({ session, token, user }) {
+    async session({ session, token }) {
       // Send properties to the client, like an access_token from a provider.
-      session.accessToken = token.accessToken
+      session.accessToken = token.accessToken as string
       return session
     }
-  }
+  },
   secret: process.env.NEXTAUTH_SECRET,
 })
